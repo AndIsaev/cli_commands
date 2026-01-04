@@ -19,3 +19,8 @@ $ mkdir -p /tmp/test/kek
 ```shell
 $ ls /bin >> test.out
 ```
+
+### # команда позволяющая видеть исполнение и одновременно записывать в файл
+```shell
+$ ls /bin > test.out | tee
+```
