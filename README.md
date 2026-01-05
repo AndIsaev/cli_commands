@@ -128,3 +128,12 @@ then
 ls "$DIR"
 fi
 ```
+### Простой цикл while
+```shell
+i=0
+while (( i < 1000 ))
+do
+   echo $i
+   let i++
+done
+```
