@@ -144,3 +144,19 @@ do
 echo $i
 done
 ```
+### Цикл `for` с использованием аргументов
+`args.sh`
+```
+for ARG
+do
+echo here is an argument: $ARG
+done
+```
+```shell
+./for/args.sh bash is fun
+```
+```
+here is an argument: bash
+here is an argument: is
+here is an argument: fun
+```
